@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        .section_first{ 
+            background-image: "images/background";
+        }
+        .into_image{
+                    text-align: center;
+                    text-align: justify;
+                    padding-inline-start: 10pc;
+                    width: 100%;
+                    color: antiquewhite;
+        }
+        /* Container holding the image and the text */
+        .container {
+          position: relative;
+          text-align: center;
+          color: white;
+        }
+         /* Centered text */ 
+        .centered{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: large;
+        text-align:center;
+        width: 80pc;
+    } 
+    .centered_hading{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 3em;
+        padding-bottom: 20pc;
+    } 
+     .centered_butten{ 
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding-top: 20pc;
+        display: block;
+     } 
+     .button {
+        background-color:white;
+        border: none;
+        color:black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+     } 
+          .container_about {
+        display: flex;
+        align-items: center; /* centers the items vertically */
+        justify-content: space-between; /* spaces the items evenly along the container */
+        column-gap: 5px;
+        padding-top: 5pc;
+        padding-left: 3pc;
+      }
+      img {
+        width: 70%; /* adjust this value to your liking */
+        height: auto; /* preserves the aspect ratio */
+      }
+      .text {
+        font-family: 'Times New Roman', Times, serif;
+        width: 40%; /* adjust this value to your liking */
+        text-align: right;
+        padding-right: 10pc; 
+        padding-bottom: 5pc;
+        font-size: large;  
+      }
+    .about_h{
+        font-size: 5pc;
+        padding-left: 5pc;  
+        text-decoration-style: solid;
+        padding-left: 20px;
+        text-align: left;
+        margin-top: 1em ;
+        margin-bottom: 2em ;
+    } 
+    .button_{
+      padding: 15px 15px;
+      font-size: 16px;
+      padding-right: 10pc;
+      margin-top: 5pc;
+      background: blue;
+      color: white;
+      border-radius: 10pc;
+      text-align: center;
+      text-align:right  ;
+    }
+    .CLASSIFIED_hading{
+      padding-top: 200pc;
+      padding-left: 300px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 4em;
+    }
+    .CLASSIFIED_hading1{
+      padding-top: 300pc;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 4em;
+    }
+    .service{
+       padding-top: 20px;
+      padding-left: 300px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .service_text{
+      padding-left: 300px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: left;
+      padding-right: 10pc;
+      font-size: large;
+ 
+    }
+
+     </style>   
+</head>
+<body>
+    <!-- <img src="imajes/logo.png" alt="Flowers in Chania"> -->
+     <section class="intro">
+            <div class="h_intro"> 
+                <div class="container">
+                    <img src="imajes/banner.jpg" alt="Snow" style="width:100%;">
+                    <div  class="centered_hading">
+                        <h1>Classified Ads</h1> 
+                    </div>
+                    <div class="centered">
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in
+                    </div>
+                    <div class="centered_butten">  
+                        <button class="button">Read Me </button>
+                </div> 
+                  </div> 
+     </section>
+     <div class="container_about">
+        <div class="image">
+          <img src="imajes/about_img.jpg">
+        </div>
+        <div class="text">
+          <span class="about_h" style="color:black">ABOUT</span>
+          <span class="about_h" style="color:blue">US</span>
+          <span class="text_">
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+          </span>
+          <button class="button_">Reade More</button>
+          <!-- <a class="button_" href="https://www.w3schools.com">Visit W3Schools.com!</a> -->
+        </li>
+      </div>
+    </div>
+    </section>
+    <section>
+      <div class="CLASSIFIED">
+           <span class="CLASSIFIED_hading">ONE OF THE BEST</span>
+           <span class="CLASSIFIED_hading1" style="color: blue;"> CLASSIFIED</span>
+      </div>
+      <div>
+         <h1 class="service">FRONT END MULTICURRENCY</h1>
+         <p class="service_text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
+         </p> 
+         <h1 class="service">MOST INTELLIGENT SEARCH SYSTEM</h1>
+         <p class="service_text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
+         </p> 
+         <h1 class="service">MOST INTELLIGENT SEARCH SYSTEM</h1>
+         <p class="service_text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
+         </p> 
+      </div>  
+    </section>
+</body>
+<body > 
+</body>
+</html>

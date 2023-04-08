@@ -1,0 +1,238 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 10px saddlebrown solid;
+    border-radius: 50px;
+    background-color: rgb(2, 44, 42);
+    text-decoration: none;
+    margin: -6px;
+    z-index: 9999;
+}  
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.navbar ul li a {
+    padding: 10px;
+    margin-right: 10px;
+    display: inline;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color:wheat;
+    background-color: darkgray;
+}
+.navbar .btn {
+    position: fixed;
+    border: 5px solid gray;
+    position: relative;
+    left: 300px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10%;
+    margin: 1px;
+    text-decoration: none;
+}
+
+.home {
+    position: relative;
+    z-index: 1;
+}
+
+.img {
+    position: relative;
+}
+
+.img-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.img-text h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.img-text p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    text-align: justify;
+}
+
+.container {
+    display: flex;
+    margin-top: 10pc;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.box img {
+    display: block;
+    width: 100%;
+}
+
+.box p {
+    margin-top: 10px;
+    text-align: center;
+    text-align: justify;
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("https://source.unsplash.com/random/1320x1000?map");
+    /* Control the height of the image */
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+}
+/* Add styles to the form container */
+.container_end {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: wheat
+}
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+    width: -webkit-fill-available;
+    padding: 12px;
+    margin: 6px 0 24px 0;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+/* Set a style for the submit button */
+.btn_end {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.end_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 350px;
+    padding: 20px;
+    /* background-color:black  */
+    /* Adjust the opacity and color to your preference */
+    border-radius: 10px;
+    text-align: justify;
+} 
+#pakistanid{
+    background-image: url("Pics/Pakistan1.jpg"); 
+    margin: 10px;
+    min-height: 480px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+    width: 1350px;
+    margin-left: -2px;
+    margin-top: 78px;
+}
+.Pakistan h1{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    color:black;    
+    transform: translateX(-50%);
+    text-align: center;
+}
+.container_p {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    display: inline-block;
+    vertical-align: right;
+    width: 56%;
+    margin-left: 40%;
+    border-radius: 15px;
+  }
+  .image:hover{
+    -webkit-box-shadow: -1px -2px 4px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -2px 4px 3px rgba(0,0,0,0.75);
+    box-shadow: -1px -2px 4px 3px rgba(0,0,0,0.75);
+  }
+  .text {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+    font-size: large;
+    margin-left: 5%;
+    border-radius: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  .text:hover{
+    box-shadow: -1px -2px 4px 3px rgba(0,0,0,0.75);
+  }
+  .text_center{
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    font-size: large;
+    margin-left: 30%;
+    border-radius: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  } 
+  .text_center:hover{
+    box-shadow: -1px -2px 4px 3px rgba(0, 0, 0, 0.75);
+  }
+  .text_right{
+    display: inline-block;
+    width: 93%;
+    font-size: large; 
+    border-radius: 10px; 
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.text_right:hover{
+    box-shadow: -1px -2px 4px 3px rgba(0, 0, 0, 0.75);
+  }
+
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,169 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .header_full_banner {
+        padding-left: 125px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .header_full_banner {
+        padding-left: 125px;
+    }
+    .titlepage h2 {
+        font-size: 42px;
+    }
+    ul.location_icon li {
+        padding-left: 38px;
+    }
+    .bottom_form .enter {
+        width: 55%;
+    }
+    ul.social_icon li a {
+        margin: 0px 1px;
+    }
+    .cont h3 {
+        font-size: 38px;
+    }
+    .banner_main {
+        padding-top: 100px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header_full_banner {
+        padding-left: 125px;
+    }
+    .text-bg h1 {
+        padding-top: 0px;
+        font-size: 61px;
+        line-height: 70px;
+    }
+    .banner_main {
+        padding-top: 80px;
+    }
+    .banner_main {
+        min-height: 600px;
+    }
+    .titlepage h2 {
+        font-size: 33px;
+    }
+    ul.location_icon li {
+        font-size: 15px;
+        padding-left: 8px;
+    }
+    .bottom_form .enter {
+        width: 58%;
+    }
+    .sub_btn {
+        padding: 12px 0px;
+        max-width: 137px;
+        margin-left: -2px;
+    }
+    ul.social_icon li a {
+        width: 32px;
+        font-size: 19px;
+        margin: 0px 1px;
+        height: 32px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .header {
+        padding: 15px 30px 10px 30px;
+    }
+    .header_full_banner {
+        padding-left: 109px;
+    }
+    .login_btn a {
+        padding: 4px 26px;
+    }
+    ul.btn li {
+        padding: 0px 9px;
+    }
+    .text-bg h1 {
+        font-size: 39px;
+        line-height: 40px;
+        padding-bottom: 25px;
+    }
+    .logo {
+        width: 128px;
+    }
+    .titlepage h2 {
+        font-size: 34px;
+    }
+    .banner_main {
+        padding-top: 80px;
+    }
+    .banner_main {
+        min-height: 600px;
+    }
+    .about_img {
+        margin-bottom: 20px;
+    }
+    ul.location_icon li {
+        font-size: 17px;
+        padding-left: 13px;
+    }
+    .sub_btn {
+        max-width: 189px;
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        padding: 30px 0px 15px 0px;
+    }
+    .header_full_banner {
+        padding-left: 109px;
+    }
+    .logo {
+        text-align: center !important;
+        padding-bottom: 6px;
+        float: left;
+    }
+    .text-bg h1 {
+        font-size: 31px;
+        line-height: 40px;
+        padding-bottom: 40px;
+        padding-left: 10px;
+    }
+    .header_full_banner {
+        min-height: inherit;
+    }
+    ul.btn {
+        display: none;
+    }
+    .text-bg span {
+        display: none;
+    }
+    .banner_main {
+        padding-top: 50px;
+    }
+    .banner_main {
+        min-height: 400px;
+    }
+    .text-bg a {
+        max-width: 168px;
+    }
+    .titlepage h2 {
+        font-size: 33px;
+        line-height: 44px;
+    }
+    .about_img {
+        margin-bottom: 20px;
+    }
+    ul.location_icon li {
+        padding-left: 0px;
+        display: block;
+        text-align: left;
+        margin-top: 20px;
+    }
+    .bottom_form .enter {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

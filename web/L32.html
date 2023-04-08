@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Attribute & nth child pseudo Selectors</title>
+    <style>
+        .container-form {
+            margin: auto;
+            width: 233px;
+            display: block;
+        }
+
+        input {
+            display: block;
+            margin: 10px;
+        }
+
+        .container-form a {
+            flex-direction: column;
+        }
+
+        li a:nth-child(n) {
+            color: rgb(51, 153, 51);
+        }
+
+        input[type="text"] {
+            border: 2px solid red;
+            border-radius: 20px;
+        }
+
+        div ul li {
+            margin: 10px;
+        }
+
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(1, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+        }
+
+        .div1 {
+            grid-area: 2 / 2 / 3 / 3;
+        }
+
+        .div2 {
+            grid-area: 2 / 3 / 3 / 4;
+        }
+
+        .div3 {
+            grid-area: 2 / 4 / 3 / 5;
+        }
+
+        .div4 {
+            grid-area: 3 / 2 / 4 / 3;
+        }
+
+        .div5 {
+            grid-area: 3 / 3 / 4 / 4;
+        }
+
+        .div6 {
+            grid-area: 3 / 4 / 4 / 5;
+        }
+
+        /* h1 {
+            font-size: 72px;
+            background: -webkit-linear-gradient(#eee, #333);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        } */
+        button {
+            border: 2px solid #24b4fb;
+            background-color: #24b4fb;
+            border-radius: 0.9em;
+            padding: 0.8em 1.2em 0.8em 1em;
+            transition: all ease-in-out 0.2s;
+            font-size: 16px;
+        }
+
+        button span {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-weight: 600;
+        }
+
+        button:hover {
+            background-color: #0071e2;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container-form">
+        <h1>This is heading </h1>
+        <form class="Input-form">
+            <input type="text" placeholder="Enter your Name">
+            <input type="email" placeholder="Enter youremail">
+            <input type="password" placeholder="Enter your password">
+            <input type="submit" placeholder="submit">
+        </form>
+        <ul>
+            <li><a href="#">Link1</a></li>
+            <li><a href="#">Link2</a></li>
+            <li><a href="#">Link3</a></li>
+            <li><a href="#">Link4</a></li>
+            <li><a href="#">Link5</a></li>
+            <li><a href="#">Link6</a></li>
+            <li><a href="#">Link7</a></li>
+        </ul>
+    </div>
+    <div class="parent">
+        <div class="div1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam quae, rerum adipisci sunt
+            laboriosam, veritatis totam sapiente, quos iure architecto vitae quas eius enim. Maiores excepturi ducimus
+            nam reiciendis ea. </div>
+        <div class="div2"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, ut dolore? Corrupti
+            similique alias, nihil voluptates rerum amet nesciunt harum architecto, incidunt tempora eum culpa quidem
+            odit voluptatibus sit eligendi.</div>
+        <div class="div3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam explicabo nesciunt possimus
+            minus tempore, facilis voluptas velit laudantium, perspiciatis cumque quis fuga voluptate ducimus fugit
+            optio quos exercitationem recusandae praesentium.</div>
+        <div class="div4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit et nisi dignissimos temporibus
+            ad molestiae molestias beatae consectetur. Nihil, amet quia sint odit eaque earum aliquam quaerat aspernatur
+            asperiores quae. </div>
+        <div class="div5"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos tempora necessitatibus maiores
+            perspiciatis consectetur. Ipsam sequi voluptatum quidem unde aliquam iste omnis, iusto nobis possimus porro,
+            cumque quae laboriosam cum!</div>
+        <div class="div6"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ipsa sed esse dicta
+            placeat soluta ab cumque a quae tempora, hic omnis ipsum rerum. Nisi sunt cum quo veniam. Nemo?</div>
+    </div>
+</svg>
+<button>
+    <span>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+            <path fill="none" d="M0 0h24v24H0z"></path>
+            <path fill="currentColor" d="M11 11V5h2v6h6v2h-6v6h-2v-6H5v-2z"></path>
+        </svg> Create
+    </span>
+</button>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#0099ff" fill-opacity="1"
+        d="M0,32L48,32C96,32,192,32,288,80C384,128,480,224,576,266.7C672,309,768,299,864,282.7C960,267,1056,245,1152,245.3C1248,245,1344,267,1392,277.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+    </path>
+
+
+</body>
+
+</html>

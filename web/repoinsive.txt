@@ -1,0 +1,16 @@
+for the reponsive design in css
+1
+Media queries
+@media (max-width: 400px) {
+  // Styles for viewports narrower than 400 pixels.
+}
+You can use any CSS length units in your media queries.
+f your content is mostly text-based, it probably makes more sense to use a relative unit that's based on text size, like em
+@media (min-width: 50em) {
+  article {
+    column-count: 2;
+  }
+}
+column count is used to divides the text in to two col
+2
+Internationalization

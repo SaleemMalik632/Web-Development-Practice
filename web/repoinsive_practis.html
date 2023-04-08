@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav {
+            border: 1px solid red;
+            list-style: none;
+        }
+        .navbar-left {
+            border: 1px solid rebeccapurple;
+            display: inline-block;
+            margin-left: 5px;
+            justify-content: space-between;
+            list-style: none;
+        }
+        .navbar-left li a {
+            margin: 10px;
+            text-decoration: none;
+        }
+        .navbar-right {
+            border: 1px solid rebeccapurple;
+            display: inline-block;
+            margin-left: 55pc;
+            justify-content: flex-end;
+        }
+        .navbar-right li {
+            margin-left: 40px;
+            list-style: none;
+        }
+        .navbar-right a {
+            margin-left: 10px;
+            text-decoration: none;
+        }
+        /* Styles for screens smaller than 576px (e.g. smartphones) */
+        @media (max-width: 575.98px) {
+
+            /* Mobile-specific styles go here */
+            .navbar-right {
+                border: 1px solid rebeccapurple;
+                display: inline-block;
+                margin-left: 3pc;
+                justify-content: flex-end;
+            }
+        }
+        /* Styles for screens between 576px and 991.98px (e.g. tablets) */
+        @media (min-width: 576px) and (max-width: 991.98px) {
+            /* Tablet-specific styles go here */
+            .navbar-right {
+                border: 1px solid rebeccapurple;
+                display: inline-block;
+                margin-left: 26pc;
+                justify-content: flex-end;
+            }
+        }
+        /* Styles for screens larger than 992px (e.g. desktops) */
+        @media (min-width: 992px) {
+            /* Desktop-specific styles go here */
+            .navbar-right {
+                border: 1px solid rebeccapurple;
+                display: inline-block;
+                margin-left: 50pc;
+                justify-content: flex-end;
+            }
+        }
+        .container {
+            border: 1px solid red;
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-around;
+            /* background-image: url(Pics/map.jpg); */
+        }
+        .container img {
+            width: 20%;
+            padding: 5%;
+            border-radius: 100px;
+        }
+        .container span {
+            /* text-align:  right; */
+            margin-top: 10pc;
+            width: 264px;
+            display: inline-block;
+        }
+        @media (max-width: 575.98px) {
+            /* Mobile-specific styles go here */
+            .container span {
+                margin-top: 2pc;
+            }
+            .Text_container{
+            margin-left: 0pc;
+        }
+        }
+        @media (max-width: 300px) {
+            .container {
+                flex-direction: column;
+            }
+            .container img {
+                width: 50%;
+                padding: 5%;
+                border-radius: 100px;
+            }
+            .Text_container{
+            margin-left: 0pc;
+        } 
+
+        }
+        /* Styles for screens between 576px and 991.98px (e.g. tablets) */
+        @media (min-width: 576px) and (max-width: 991.98px) {
+            /* Tablet-specific styles go here */
+            .container span {
+                margin-top: 3pc;
+            }
+        }
+        /* Styles for screens larger than 992px (e.g. desktops) */
+        @media (min-width: 992px) {
+            /* Desktop-specific styles go here */
+            .container span {
+                margin-top: 10pc;
+                width: 264px;
+                display: inline-block;
+            } 
+
+        }
+        .Text_container{
+            display: inline-block;
+            border: 1px solid red ;
+            margin-left: 2pc;
+        }
+        .Text_container div { 
+            width: 264px;
+            display: inline-block;
+            border: 1px solid red ;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>  
+        <nav>
+            <ul class="navbar-left">
+                <li>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+            <ul class="navbar-right">
+                <li>
+                    <a href="#">Sign In</a>
+                    <a href="#">Sign Up</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <img src="Pics/2 (1).jpg" alt="Loading...">
+        <span class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusamus possimus cum laudantium placeat, vero
+            nesciunt facere, iure deleniti quis a reprehenderit adipisci molestiae provident enim numquam quam, ducimus
+            id.
+        </span>
+    </div>
+    <div class="Text_container">
+         <div class="box">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas ea sapiente suscipit, perspiciatis ipsum repellendus non? Dignissimos reprehenderit cupiditate provident, rem officiis obcaecati vel voluptas repellendus perspiciatis cum eos sequi!
+         </div>
+         <div class="box">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas ea sapiente suscipit, perspiciatis ipsum repellendus non? Dignissimos reprehenderit cupiditate provident, rem officiis obcaecati vel voluptas repellendus perspiciatis cum eos sequi!
+         </div>
+         <div class="box">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas ea sapiente suscipit, perspiciatis ipsum repellendus non? Dignissimos reprehenderit cupiditate provident, rem officiis obcaecati vel voluptas repellendus perspiciatis cum eos sequi!
+         </div>
+         <div class="box">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas ea sapiente suscipit, perspiciatis ipsum repellendus non? Dignissimos reprehenderit cupiditate provident, rem officiis obcaecati vel voluptas repellendus perspiciatis cum eos sequi!
+         </div>
+    </div>
+
+
+
+</body>
+
+</html>

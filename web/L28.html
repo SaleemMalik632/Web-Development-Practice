@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            border: 2px solid green;
+            margin: 25px;
+            padding: 40px;
+            display: flex;
+           /* / flex-direction: row-reverse; */
+            /* flex-direction: column; */
+            /* The flex-wrap Property */
+            /* flex-wrap: wrap; */
+            /* flex-wrap: wrap-reverse; */
+            /* flex-flow: row wrap; */
+            /* align-items:  in the center of the containeren; */
+            justify-content: center;
+            /* justify-content: space-around; */
+
+            /* justify-content: space-between;/ */
+            /* align-items: center; */
+            /* align-items: flex-start; */
+            /* align-items: stretch; */
+            /* height: 200px; */
+            /* align-items: baseline; */
+
+        }
+        .item {
+            width: 200px;
+            height: 200px;
+            background-color: tomato;
+            border: 2px solid green;
+            margin: 10px;
+            padding: 3px;
+            display: inline-block;
+            margin-top: 41px;
+        }
+        #item1{
+            order: 3;
+            /* flex-grow: 8; */
+            align-self: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item" id="item1">First </div>
+        <div class="item" id="item2"> second</div>
+        <div class="item" id="item3">thirde</div>
+        <div class="item" id="item4s">Four</div>
+    </div>
+</body>
+
+</html>
