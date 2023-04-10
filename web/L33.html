@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        header {
+            text-align: center;
+            text-decoration-style: none;
+            border: 1px solid rebeccapurple;
+        }
+        li a {
+            margin: 10px;
+        }
+        .Text {
+            border: 1px solid red;
+            padding: 100px;
+            text-align: center;
+            position: absolute;
+        }
+        .Text::after {
+            position: relative;
+            content: "This text will appear after the element.";
+        }
+        header::before{
+            background: url('https://source.unsplash.com/collection/190727/1600x900') no-repeat center center/cover;
+            content: "saleem";
+            position: absolute;
+            top:0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.3; 
+        } 
+    </style>
+</head>
+
+<body>
+        <!-- how to add after and before in css  -->
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact Us </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="Text">
+        <h1>I Love SomeOne M </h1>
+        <span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium deleniti aut, iste voluptatum
+            distinctio unde. Officiis obcaecati, excepturi at repudiandae ut accusamus incidunt magni assumenda nemo!
+            Eaque, sint laboriosam.
+        </span>
+    </div>
+
+
+
+</body>
+
+</html>
