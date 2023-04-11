@@ -1,12 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .Cantainer {
+            display: grid;
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-columns: repeat(auto-fit, minmax(300px, 400fr));
+            grid-gap: 20px;
+        }
+        .styled-table {
+            border-collapse: collapse;
+            margin: 0 auto;
+            font-size: 0.9em;
+            font-family: sans-serif;
+            min-width: 400px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+            /* box-shadow: i; */
+        }
+        .styled-table thead tr {
+            background-color: #009879;
+            color: #ffffff;
+            text-align: left;
+        }
+        .styled-table tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
+        .styled-table tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+        .styled-table tbody tr:last-of-type {
+            border-bottom: 2px solid #009879; 
+        }
+        .styled-table tbody tr.active-row {
+            font-weight: bold; 
+            color: #009879;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <div class="Cantainer">
+        <div class="item">Test-1</div>
+        <div class="item">Test-2</div>
+        <div class="item">Test-3</div>
+        <div class="item">Test-4</div>
+        <div class="item">Test-5</div>
+        <div class="item">Test-6</div>
+        <div class="item">Test-7</div>
+        <div class="item">Test-8</div>
+        <div class="item">Test-9</div>
+    </div>
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Points</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dom</td>
+                <td>6000</td>
+            </tr>
+            <tr class="active-row">
+                <td>Melissa</td>
+                <td>5150</td>
+            </tr>
+            <tr>
+                <td>Dom</td>
+                <td>6000</td>
+            </tr>
+            <tr>
+                <td>Dom</td>
+                <td>6000</td>
+            </tr>
+            <!-- and so on... -->
+        </tbody>
+    </table>
 </body>
+
 </html>

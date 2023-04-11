@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Transfrom in Css </title>
+    <style>
+        .container {
+            border: 2px solid rebeccapurple;
+            align-items: center;
+            display: flex;
+            text-align: center;
+            margin: 10px 20px;
+            margin: 17px 400px;
+            height: 400px;
+            background-color: red;
+            width: 400px;
+            transition: all 1s  ease-in-out;
+            /* transition: all 0.5s ease-in-out; */
+        }
+        .container:hover{
+            /* transform: rotate(360deg); */
+            transform: skew(40deg);
+            /* transform: scale(2); */
+            /* transform: translateX(123px); */
+            /* transform: translateY(-123px); */
+            /* transform: translate(123px, 123px); */
+        }
+    </style>
 </head>
+
 <body>
+     
+     <!-- transform is used to move the box in and out and also text the and also us  -->
+     <!-- is we want to move the box on x axie than used translateX  for y translateY  for zooming scale -->
     
+
+    <div class="container">
+        this is the box content
+    </div>
+
 </body>
+
 </html>

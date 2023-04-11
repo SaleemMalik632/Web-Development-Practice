@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Grid {
+            /* display: grid;
+        grid-template-columns:100px ; */
+            /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
+            /* grid-template-columns: 100px 100px 100px 100px 100px 100px ; */
+            /* grid-template-columns: 5em 100px 30%; */
+            /* grid-gap: 10px; */
+            display: grid;
+            /* grid-template-columns: 90% 90% 90%; */
+            grid-template-rows: 200px auto;
+            gap: 10px;
+            /* padding: 1em; */
+            text-align: center;
+            align-items: center;
+            grid-auto-flow: unset;
+            max-width: 30rem;
+        }
+        .item {
+            /* margin: 10px; */
+            border: 2px solid rgb(14, 235, 98);
+            border-radius: 20px;
+            padding: 20px;
+            grid-column-end: span 2
+        } 
+        .Footer{
+            display: grid;
+            /* grid-template-columns: 90% 90% 90%; */
+            grid-template-columns: 100px 100px  100px   ;
+            gap: 10px;
+            /* padding: 1em; */
+            /* text-align: center;
+            align-items: center;
+            grid-auto-flow: unset;
+            max-width: 30rem; */
+            align-items: center;
+            text-align: center;
+            border: 1px solid red ;
+            width: 100%  ;
+            height: 100%; 
+            padding: 100px;
+            background-color: rgb(30, 255, 0); 
+            justify-content: center;
+            /* opacity: 0.; */
+        } 
+
+    </style>
+</head>
+
+<body>
+
+    <div class="Grid">
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nihil dolore fugit tempora
+            soluta quas facilis recusandae cum quia eius sint quaerat praesentium vero porro repellat aliquam nesciunt,
+            atque voluptas!</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam architecto, eum saepe perferendis
+            dolor rem recusandae et distinctio doloribus mollitia voluptatem nemo. Quia voluptates facilis minima ab
+            architecto accusantium iusto!</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum maiores dolore earum ut
+            quisquam exercitationem quia sint eos? Illum numquam non ipsa a qui magni enim esse ipsam nam rerum!</div>
+        <!-- <div class="item">New text-4</div>
+        <div class="item">New text-5</div>
+        <div class="item">New text-6</div>
+        <div class="item">New text-7</div>
+        <div class="item">New text-8</div>
+        <div class="item">New text-9</div> -->
+        <!-- <div class="item">New text-10</div> -->
+    </div>
+    <div class="Footer">
+        <a href="" class="footer">Link-1</a>
+        <a href="" class="footer">Link-2</a>
+        <a href="" class="footer">Link-3</a>
+        <a href="" class="footer">Link-4</a>
+        <a href="" class="footer">Link-5</a>
+        <a href="" class="footer">Link-6</a>
+        <a href="" class="footer">Link-7</a>
+        <a href="" class="footer">Link-8</a>
+        <a href="" class="footer">Link-9</a>
+    </div>
+
+</body>
+
+</html>
