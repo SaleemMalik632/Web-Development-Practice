@@ -12,6 +12,7 @@
             grid-template-rows: repeat(2, 1fr);
             grid-template-columns: repeat(auto-fit, minmax(300px, 400fr));
             grid-gap: 20px;
+            background: linear-gradient(to  Top , #afe671 50%, #7e0d0d 100%);
         }
         .styled-table {
             border-collapse: collapse;
@@ -24,9 +25,9 @@
         }
         .styled-table thead tr {
             background-color: #009879;
-            color: #ffffff;
+            color: hsl(0, 69%, 42%);
             text-align: left;
-        }
+        } 
         .styled-table tbody tr {
             border-bottom: 1px solid #dddddd;
         }
@@ -40,6 +41,26 @@
             font-weight: bold; 
             color: #009879;
         }
+        button {
+ border: 2px solid #24b4fb;
+ background-color: #24b4fb;
+ border-radius: 0.9em;
+ padding: 0.8em 1.2em 0.8em 1em;
+ transition: all ease-in-out 0.2s;
+ font-size: 16px;
+}
+
+button span {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: #fff;
+ font-weight: 600;
+}
+
+button:hover {
+ background-color: #0071e2;
+} 
     </style>
 </head>
 
